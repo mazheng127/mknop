@@ -5,8 +5,7 @@ on:
     - cron: 0 6 * * *
   repository_dispatch:
     types: 'run'
-  watch:
-    types: started    
+      
 env:
   TZ: 'Asia/Shanghai'
 
